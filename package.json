@@ -6,7 +6,7 @@
   "type": "commonjs",
   "prisma": {
     "schema": "prisma/postgresql-schema.prisma"
-  }
+  },
   "scripts": {
     "build": "npm run db:generate && tsc --noEmit && tsup",
     "start": "npx prisma db push && npx prisma generate && tsx ./src/main.ts",
